@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #ffffff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+/* Intro */
+.intro {
+  background: #9a9a9a;
+  position: relative;
+}
+.intro .intro_inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 10rem 0;
+}
+.intro .intro_inner .intro_title {
+  padding: 2rem 0;
+  color: #ffffff;
+  font-size: 2.3rem;
+}
+.intro .intro_inner .intro_title:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #ffffff;
+  margin-top: 1.5rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+.intro .intro_inner .intro_text {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  opacity: .8;
+  padding-right: 14rem;
+}
+.intro .intro_inner .intro_button {
+  margin-top: 3.4rem;
+}
+.intro .intro_inner .intro_button .button_link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  border: 2px solid #E6E6E6;
+  padding: .7rem 2rem;
+  transition: color .3s linear, background .3s linear;
+}
+.intro .intro_inner .intro_button .button_link:hover {
+  background-color: #E6E6E6;
+  color: #9a9a9a;
+}
+.intro .intro_inner .intro_form {
+  max-width: 380px;
+  width: 100%;
+  height: 370px;
+  position: relative;
+  background: #ffffff;
+  border-radius: 3px;
+}
+.intro .intro_inner .intro_form .form_text {
+  font-size: 1.4rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  background: #F5F5F5;
+  text-align: center;
+  padding: .8rem 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.intro .intro_inner .intro_form .form_text span {
+  color: #ff8b38;
+}
+.intro .intro_inner .intro_form form {
+  text-align: center;
+}
+.intro .intro_inner .intro_form form .inner_form {
+  width: 300px;
+  margin: 0 auto;
+}
+.intro .intro_inner .intro_form form .inner_form .intro_input {
+  width: 100%;
+  height: 2.3rem;
+  border: none;
+  border-bottom: 1px solid #EEEEEE;
+  font-family: 'Open Sans', sans-serif;
+  color: #BDBDBD;
+  text-indent: 10px;
+  margin-top: 2rem;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+}
+.intro .intro_inner .intro_form form .inner_form .intro_input:focus {
+  outline: none;
+}
+.intro .intro_inner .intro_form form .intro_button_input {
+  padding: 0;
+  border: none;
+  background: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  padding: 1.05rem 0;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: #ffffff;
+  background-color: #FF9B51;
+  width: 100%;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.intro header {
+  background: #333333;
+  padding: 1.6rem 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.intro header .header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.intro header .header_inner nav .nav_link {
+  color: #ffffff;
+  opacity: .69;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 2.9rem;
+  text-decoration: none;
+  transition: opacity .3s linear;
+}
+.intro header .header_inner nav .nav_link:hover {
+  opacity: 1;
+}
+.intro header .header_inner nav .nav_link:first-child {
+  margin-left: 0;
+}
