@@ -3,11 +3,40 @@
 .intro {
 	background: @background;
 	position: relative;
+	overflow: hidden;
+
+	&:after {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 2;
+		height: 100%;
+		width: 100%;
+
+		background-color: rgba(0,0,0,0.3);
+	}
+
+	.video_intro {
+		width: 100%;
+		height: auto;
+
+		position: absolute;
+		top: -200px;
+		left: 0;
+	}
+
+	.video_media {
+		position: relative;
+		padding-bottom: 52.56%;
+	}
 
 	.intro_inner {
 		display: flex;
-		justify-content: space-between;
 		padding: 10rem 0;
+		position: relative;
+		z-index: 3;
 
 		.intro_title {
 			padding: 2rem 0;
@@ -32,12 +61,11 @@
 			font-size: 1rem;
 			font-weight: 300;
 			line-height: 1.5;
-			opacity: .8;
 
 			padding-right: 14rem;
 		}
 
-		.intro_button {
+		.button {
 			margin-top: 3.4rem;
 
 			.button_link {
@@ -147,6 +175,7 @@
 		top: 0;
 		right: 0;
 		left: 0;
+		z-index: 5;
 
 		.header_inner {
 			display: flex;

@@ -1,0 +1,84 @@
+// main: style.less
+
+.section.description {
+	padding: 9rem 0 ;
+}
+
+.description_inner {
+	display: flex;
+	flex: wrap;
+}
+
+.description_tabs {
+	margin-right: 6.25rem; 
+}
+
+.tabs_item {
+	text-transform: uppercase;
+	font-family: @sans;
+	font-weight: 700;
+	color: @white;
+	cursor: pointer;
+
+	width: 7.18rem;
+	padding: 3rem 2.25rem;
+	background-color: @black;
+	border: 1px solid #C7C7C7;
+	transition: background .3s linear;
+
+	&:hover {
+		background-color: @orange;
+	}
+
+	&:first-child {
+		border-top-right-radius: 3px;
+		border-top-left-radius: 3px;
+	}
+
+	&:last-child {
+		border-bottom-right-radius: 3px;
+		border-bottom-left-radius: 3px;
+	}
+}
+
+.description_content {
+	margin-right: 6.25rem;
+}
+
+.description_title {
+	font-family: @sans;
+	font-size: 1.2rem;
+	font-weight: 700;
+
+}
+
+.description_text {
+	margin: 2.93rem 0 4rem;
+	color: #86878B;
+	font-family: @sans;
+	text-align: justify;
+
+	p:first-child {
+		margin-bottom: 1.68rem;
+	}
+}
+
+.description_button {
+	color: @white;
+	text-decoration: none;
+	padding: .9rem 1.31rem; 
+
+	font-family: @sans;
+	font-weight: 600;
+	background-color: @orange;
+	border-radius: 5px;
+	transition: background .3s linear, color .3s linear;
+
+	&:hover {
+		background-color: @black;
+		color: @orange;
+	}
+}
+
+
+

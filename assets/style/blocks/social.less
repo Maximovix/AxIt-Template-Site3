@@ -1,0 +1,50 @@
+//main: style.less
+
+.social {
+	margin: 1.2rem 0;
+}
+
+.social_inner {
+	display: flex;
+}
+
+.social_title {
+	font-size: 1.2rem;
+	font-family: @sans;
+	font-weight: 700;
+	color: @black;
+
+	margin-bottom: 0.2rem;
+}
+
+.social_text {
+	font-family: @sans;
+	color: #86878B;
+}
+
+.social_items {
+	width: 100%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	margin-left: 5rem;
+}
+
+.social_item {
+	padding: 5px;
+
+	.social_icon {
+		width: 30px;
+		height: 30px;
+		fill: @black;
+		transition: fill .3s linear;
+	}	
+
+	&:hover
+	.social_icon { 
+		fill: @orange;
+	}
+}
+
