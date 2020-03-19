@@ -1,0 +1,65 @@
+// main: ../style.less;
+
+.team {
+	padding: 6.25rem 0;
+}
+
+.header_united {
+	text-align: center;
+}
+
+.title_united {
+	font-size: 2.2rem;
+	font-weight: 400;
+
+	&:after {
+		content: "";
+		display: block;
+		width: 60px;
+		height: 2px;
+		background-color: @orange;
+		margin: 1.4rem auto;
+	} 
+}
+
+.subtitle_united {
+	font-family: @sans;
+	color: #86878B
+}
+
+.team_inner {
+	margin-top: 5rem;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.team_item {
+	width: 32%;
+
+	text-align: center;
+	font-family: @sans;
+}
+
+.team_item_icon {
+	width: 70px;
+	height: 70px;
+
+	border: 2px solid @orange;
+
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.team_item_title {
+	margin: 1.625rem 0;
+
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+.team_item_text {
+	color: #86878B;
+	line-height: 1.4;
+}
