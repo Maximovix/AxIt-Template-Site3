@@ -81,23 +81,6 @@ p {
   line-height: 1.5;
   padding-right: 14rem;
 }
-.intro .intro_inner .button {
-  margin-top: 3.4rem;
-}
-.intro .intro_inner .button .button_link {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 1.1rem;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  border: 2px solid #E6E6E6;
-  padding: .7rem 2rem;
-  transition: color .3s linear, background .3s linear;
-}
-.intro .intro_inner .button .button_link:hover {
-  background-color: #E6E6E6;
-  color: #9a9a9a;
-}
 .intro .intro_inner .intro_form {
   max-width: 380px;
   width: 100%;
@@ -139,6 +122,7 @@ p {
 }
 .intro .intro_inner .intro_form form .inner_form .intro_input:focus {
   outline: none;
+  color: #333333;
 }
 .intro .intro_inner .intro_form form .intro_button_input {
   padding: 0;
@@ -186,6 +170,23 @@ p {
 }
 .intro header .header_inner nav .nav_link:first-child {
   margin-left: 0;
+}
+.button {
+  margin-top: 3.4rem;
+}
+.button .button_link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  border: 2px solid #E6E6E6;
+  padding: .7rem 2rem;
+  transition: color .3s linear, background .3s linear;
+}
+.button .button_link:hover {
+  background-color: #E6E6E6;
+  color: #9a9a9a;
 }
 /* Social */
 .social {
@@ -452,4 +453,164 @@ p {
 }
 .options_row.options_description {
   border-bottom: 5px solid #ff8b38;
+}
+/* Reviews */
+.reviews {
+  padding: 6.25rem 0;
+}
+.reviews_inner {
+  margin-top: 6.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+.reviews_image {
+  width: 100%;
+}
+.reviews_item {
+  width: 26%;
+  font-family: 'Open Sans', sans-serif;
+}
+.reviews_content {
+  position: relative;
+}
+.reviews_text {
+  width: 90%;
+  position: absolute;
+  top: 1rem;
+  left: 0.68rem;
+  color: #86878B;
+}
+.reviews_author {
+  position: relative;
+}
+.reviews_photo {
+  position: absolute;
+  top: 0;
+  left: .2rem;
+  width: 70px;
+  height: 70px;
+  background-color: #707070;
+  border-radius: 50%;
+}
+.reviews_author_info {
+  position: absolute;
+  top: 0.5rem;
+  left: 5.6rem;
+}
+.reviews_author_name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333333;
+}
+.reviews_author_profession {
+  margin-top: .1rem;
+  color: #86878B;
+}
+/* Design */
+.design {
+  margin-top: 4rem;
+  padding: 4.125rem 0;
+  background-color: #9A9A9A;
+}
+.design .title_united {
+  color: #ffffff;
+}
+.design .title_united:after {
+  background-color: #ffffff;
+}
+.design .subtitle_united {
+  color: #EBEBEB;
+}
+/* Contacts */
+.contacts {
+  margin: 6.25rem 0;
+}
+.contacts_form_inner {
+  display: flex;
+  justify-content: space-between;
+  margin: 4.81rem 0 2.5rem 0;
+}
+.contacts_input_inner {
+  width: 45%;
+}
+.contacts_input {
+  display: block;
+  margin-bottom: 2.5rem;
+  width: 100%;
+  height: 2.18rem;
+  border: none;
+  border-bottom: 1px solid #EEEEEE;
+  font-family: 'Open Sans', sans-serif;
+  color: #BDBDBD;
+  text-indent: 10px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+  transition: border .3s linear;
+}
+.contacts_input:last-child {
+  margin: 0;
+}
+.contacts_input:focus {
+  outline: none;
+  color: #333333;
+}
+.contacts_input:hover {
+  border-color: #ff8b38;
+}
+.contacts_textarea {
+  width: 45%;
+  height: 100%;
+  padding-top: .7rem;
+  border: none;
+  border-bottom: 1px solid #EEEEEE;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  color: #BDBDBD;
+  text-indent: 10px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+  transition: border .3s linear;
+  resize: none;
+}
+.contacts_textarea:focus {
+  outline: none;
+  color: #333333;
+}
+.contacts_textarea:hover {
+  border-color: #ff8b38;
+}
+.contact_button {
+  background: #ff8b38;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 1rem 1.4rem;
+  border-radius: 5px;
+  transition: background .3s linear, color .3s linear;
+}
+.contact_button:hover {
+  background: #333333;
+  color: #ff8b38;
+}
+/* Footer */
+footer {
+  padding: 1rem 0;
+  background: black;
+}
+.social_items.social_footer {
+  width: 50%;
+  margin: 0 auto;
+}
+.social_items.social_footer .social_item .social_icon {
+  fill: #ffffff;
+}
+.social_items.social_footer .social_item .social_icon:hover {
+  fill: #ff8b38;
+}
+.footer_text {
+  text-align: center;
+  color: #808080;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.75rem;
+  margin-top: .5rem;
 }

@@ -1,0 +1,33 @@
+// main: style.less;
+
+footer {
+	padding: 1rem 0;
+	background: black;
+}
+
+.social_items {
+	&.social_footer {
+		width: 50%;
+		margin: 0 auto;
+
+		.social_item {
+			.social_icon {
+				fill: @white;
+
+				&:hover {
+					fill: #ff8b38;
+				}
+			}
+		}
+	}
+}
+
+.footer_text {
+	text-align: center;
+
+	color: #808080;
+	font-family: @sans;
+	font-size: 0.75rem;
+
+	margin-top: .5rem;
+}

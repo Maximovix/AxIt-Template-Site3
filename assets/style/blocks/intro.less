@@ -65,29 +65,6 @@
 			padding-right: 14rem;
 		}
 
-		.button {
-			margin-top: 3.4rem;
-
-			.button_link {
-				color: @white;
-				text-decoration: none;
-				font-size: 1.1rem;
-				font-family: @sans;
-				font-weight: 700;
-
-				border: 2px solid #E6E6E6;
-
-				padding: .7rem 2rem;
-
-				transition: color .3s linear, background .3s linear;
-
-				&:hover {
-					background-color: #E6E6E6;
-					color: @background;
-				}
-			}
-		}
-
 		.intro_form {
 			max-width: 380px;
 			width: 100%;
@@ -136,6 +113,7 @@
 						
 						&:focus {
 							outline: none;
+							color: @black;
 						}
 					}
 				}
@@ -203,6 +181,29 @@
 					}
 				}
 			}
+		}
+	}
+}
+
+.button {
+	margin-top: 3.4rem;
+
+	.button_link {
+		color: @white;
+		text-decoration: none;
+		font-size: 1.1rem;
+		font-family: @sans;
+		font-weight: 700;
+
+		border: 2px solid #E6E6E6;
+
+		padding: .7rem 2rem;
+
+		transition: color .3s linear, background .3s linear;
+
+		&:hover {
+			background-color: #E6E6E6;
+			color: @background;
 		}
 	}
 }
