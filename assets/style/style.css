@@ -614,3 +614,326 @@ footer {
   font-size: 0.75rem;
   margin-top: .5rem;
 }
+/* Media */
+@media (max-width: 1200px) {
+  /* Header */
+  .header_inner {
+    margin: 0 2rem;
+  }
+  /* Intro */
+  .intro .intro_inner {
+    margin: 0 3rem;
+    padding: 9rem 0 6rem 0;
+  }
+  .intro .intro_inner .intro_form {
+    max-width: 250px;
+    height: 250px;
+    margin-top: 3rem;
+  }
+  .intro .intro_inner .intro_form .form_text {
+    font-size: 1rem;
+  }
+  .intro .intro_inner .intro_form form .inner_form {
+    width: 250px;
+  }
+  .intro .intro_inner .intro_form form .inner_form .intro_input {
+    margin-top: 1.3rem;
+    height: 1.5rem;
+    width: 80%;
+  }
+  .intro .intro_inner .intro_form form .intro_button_input {
+    font-size: .8rem;
+    padding: .8rem 0;
+  }
+  .intro .intro_inner .intro_text {
+    padding-right: 10rem;
+  }
+  /* Social */
+  .social {
+    margin: 1.2rem 2rem;
+  }
+  /* Description */
+  .description {
+    padding: 5rem 0 4rem;
+  }
+  .description_inner {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .description_tabs {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .description_text {
+    text-align: center;
+    padding: 0 2rem;
+    margin: 1.5rem 0 4rem;
+  }
+  .description_text p:first-child {
+    margin-bottom: 0rem;
+  }
+  .description_content {
+    margin-right: 0;
+    margin-bottom: 4rem;
+  }
+  /* Sublist */
+  .sublist {
+    padding: 5rem 0;
+  }
+  .sublist_inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .picture_section {
+    margin: 0;
+    height: 250px;
+  }
+  .picture_section.standart_picture {
+    margin: 0;
+  }
+  .sublist_content {
+    margin-top: 3.5rem;
+    padding: 0 2rem;
+    width: 70%;
+  }
+  .sublist_item:last-child {
+    margin-bottom: 0;
+  }
+  /* Standart */
+  .standart {
+    padding: 5rem 0;
+  }
+  .standart .sublist_content {
+    margin-top: 0;
+  }
+  /* Team */
+  .team {
+    padding: 4rem 2rem;
+  }
+  /* Options */
+  .options {
+    padding: 4rem 0;
+  }
+  .options_inner {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 4rem;
+    width: 50%;
+  }
+  .options_item {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .options_item:first-child {
+    margin-top: 0;
+  }
+  /* Reviews */
+  .reviews {
+    padding: 4rem 0;
+  }
+  .reviews_inner {
+    margin: 0 auto;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    width: 40%;
+  }
+  .reviews_item {
+    width: 100%;
+    margin-top: 7rem;
+  }
+  .reviews_item:first-child {
+    margin-top: 0;
+  }
+  /* Contacts */
+  .contacts {
+    margin: 4rem 0;
+  }
+  .contacts_form_inner {
+    margin: 4rem 2rem 2.5rem 2rem;
+  }
+}
+@media (max-width: 900px) {
+  /* Body */
+  body {
+    font-size: 12px;
+  }
+  /* Header */
+  .intro header {
+    padding: .6rem 0;
+  }
+  .logo {
+    width: 50px;
+  }
+  /* Intro */
+  .intro .intro_inner {
+    padding: 7rem 0 5rem 0;
+  }
+  .intro_logo {
+    width: 120px;
+  }
+  .intro .intro_inner .intro_title {
+    font-size: 1.7rem;
+  }
+  .intro .intro_inner .intro_text {
+    font-size: .8rem;
+  }
+  .button .button_link {
+    font-size: .8rem;
+    padding: .5rem 1rem;
+  }
+  /* Social */
+  .social_inner {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .social_title {
+    text-align: center;
+  }
+  .social_text {
+    text-align: center;
+  }
+  .social_items {
+    margin: 0;
+    margin-top: 1.5rem;
+  }
+  /* Team */
+  .team_inner {
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .team_item {
+    width: 60%;
+    margin-top: 2rem;
+  }
+  /* Options */
+  .options_inner {
+    width: 80%;
+  }
+  .options_row.options_price span {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 750px) {
+  /* Nav */
+  nav {
+    display: none;
+  }
+  /* Intro */
+  .intro .intro_inner {
+    flex-wrap: wrap;
+    padding: 3.5rem 0 4rem 0;
+  }
+  .intro .intro_inner .intro_title {
+    padding: 1.5rem 0;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .intro .intro_inner .intro_title:after {
+    margin: 0 auto;
+    margin-top: 1.5rem;
+  }
+  .intro .intro_inner .intro_text {
+    text-align: center;
+    padding: 0 3rem;
+  }
+  .button {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .intro .intro_inner .intro_form {
+    max-width: 100%;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+  .intro .intro_inner .intro_form form .inner_form {
+    width: 100%;
+  }
+  .intro .intro_inner .intro_form form .inner_form .intro_input {
+    width: 70%;
+  }
+  .intro_logo {
+    display: none;
+  }
+  /* Social */
+  .social {
+    margin: 1.5rem 1rem;
+  }
+  .picture_section {
+    height: 200px;
+  }
+  .sublist_content {
+    padding: 0 1rem;
+    width: 80%;
+  }
+  /* Team */
+  .title_united {
+    font-size: 1.8rem;
+  }
+  /* Reviews */
+  .reviews {
+    padding: 4rem 0;
+  }
+  .reviews_inner {
+    margin: 0 auto;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    width: 60%;
+  }
+}
+@media (max-width: 600px) {
+  /* Body */
+  body {
+    font-size: 10px;
+  }
+  /* Design */
+  .design .subtitle_united {
+    padding: 0 2rem;
+  }
+  /* Footer */
+  .social_items.social_footer {
+    width: 100%;
+    padding: 0 1rem;
+  }
+}
+@media (max-width: 550px) {
+  /* Intro */
+  .intro .intro_inner {
+    margin: .8rem 0;
+  }
+  .intro .intro_inner .intro_title {
+    font-size: 1.5rem;
+  }
+  .intro .intro_inner .intro_text {
+    font-size: .6rem;
+  }
+  /* Sublist */
+  .sublist {
+    padding: 4rem 0;
+  }
+  /* Standart */
+  .standart {
+    padding: 4rem 0;
+  }
+  /* Team */
+  .team_item {
+    width: 90%;
+    margin-top: 2rem;
+  }
+  /* Contacts */
+  .contacts_form_inner {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .contacts_input_inner {
+    width: 80%;
+  }
+  .contacts_textarea {
+    margin-top: 3rem;
+    width: 100%;
+  }
+}
