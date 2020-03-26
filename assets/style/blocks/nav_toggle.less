@@ -1,0 +1,50 @@
+// main: ../style.less;
+
+.nav_toggle {
+	display: none;
+}
+
+.nav_toggle_item {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  z-index: 5;
+
+  &:after,
+  &:before {
+	content: "";
+	display: block;
+
+	width: 25px;
+  	height: 3px;
+  	background-color: #fff;
+  	position: absolute;
+  	top: 8px;
+  }
+
+  &:after {
+	top: 8px;
+  }
+
+  &:before {
+  	top: -8px;
+  }
+}
+
+.nav_toggle_item.active {
+  background: transparent;
+
+  &:after {
+	transform: rotate(45deg);
+	top: 0;
+  }
+
+  &:before {
+  	transform: rotate(-45deg);
+  	top: 0;
+  }
+}

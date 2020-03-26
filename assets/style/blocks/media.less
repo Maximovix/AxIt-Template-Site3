@@ -191,10 +191,6 @@
 	}	
 
 	/* Header */
-	.intro header {
-		padding: .6rem 0;
-	}
-
 	.logo {
 		width: 50px;
 	}
@@ -265,6 +261,37 @@
 	/* Nav */
 	nav {
 		display: none;
+	}
+
+	.nav_toggle {
+		display: block;
+	}
+
+	nav.active {
+		display: flex;
+		flex-direction: column;
+
+		background: @black;
+
+		position: fixed;
+		top: 6%;
+		left: 0;
+		right: 0;
+
+		text-align: center;
+	}
+
+	.intro header .header_inner nav .nav_link {
+		margin-left: 0;
+		padding: 2rem 0;
+
+		border-top: 2px @orange solid;
+
+		font-size: 1.5rem;
+
+		&:last-child {
+			border-bottom: 2px @orange solid;
+		}
 	}
 
 	/* Intro */
