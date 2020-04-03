@@ -27,12 +27,6 @@ p {
   margin: 0 auto;
 }
 /* Intro */
-.header.fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-}
 .intro {
   background: #9a9a9a;
   position: relative;
@@ -151,8 +145,8 @@ p {
 }
 .intro header {
   background: #333333;
-  padding: 1.6rem 0;
-  position: absolute;
+  padding: 1rem 0;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -878,19 +872,19 @@ footer {
     flex-direction: column;
     background: #333333;
     position: fixed;
-    top: 6%;
+    top: 7.5%;
     left: 0;
     right: 0;
     text-align: center;
   }
+  .intro header {
+    padding: 1.6rem 0;
+  }
   .intro header .header_inner nav .nav_link {
     margin-left: 0;
     padding: 2rem 0;
-    border-top: 2px #ff8b38 solid;
-    font-size: 1.5rem;
-  }
-  .intro header .header_inner nav .nav_link:last-child {
     border-bottom: 2px #ff8b38 solid;
+    font-size: 1.5rem;
   }
   /* Intro */
   .intro .intro_inner {

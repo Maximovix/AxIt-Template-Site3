@@ -1,8 +1,6 @@
 $ (function(){
 
-	let scrollPosition = $(window).scrollTop(),
-		headerH,
-		header = $("#header");
+	let scrollPosition = $(window).scrollTop();
 
 		/* Scroll */
 		$("[data-scroll]").on("click",function(event) {
@@ -18,22 +16,6 @@ $ (function(){
 					scrollTop: blockOffSet
 				}, 700);
 		});
-
-		/* Fixed Header */
-		$(window).on("scroll load resize", function(){
-			headerH = header.innerHeight();
-			scrollPosition = $(this).scrollTop();
-
-			checkScroll(scrollPosition,headerH);
-		});
-
-		function checkScroll(scrollPosition,headerH) {
-			if (headerH < scrollPosition) {
-				header.addClass("fixed");
-			}else {
-				header.removeClass("fixed");
-			}
-		}
 
 		/* Description Tabs */
 		$("#tabs-first").on("click",function(event) {
