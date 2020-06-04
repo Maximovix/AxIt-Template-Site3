@@ -12,7 +12,7 @@ $ (function(){
 				$("#nav_toggle_item").removeClass("active");
 				$("#nav").removeClass("active");
 
-				$('html,bode').animate({
+				$('html,body').animate({
 					scrollTop: blockOffSet
 				}, 700);
 		});
