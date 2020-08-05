@@ -119,10 +119,15 @@ p {
   text-indent: 10px;
   margin-top: 2rem;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+  transition: border .3s linear;
 }
 .intro .intro_inner .intro_form form .inner_form .intro_input:focus {
   outline: none;
   color: #333333;
+  border-color: #ff8b38;
+}
+.intro .intro_inner .intro_form form .inner_form .intro_input:hover {
+  border-color: #ff8b38;
 }
 .intro .intro_inner .intro_form form .intro_button_input {
   padding: 0;
